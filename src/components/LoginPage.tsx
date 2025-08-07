@@ -52,7 +52,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin }) => {
           <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
             <School className="w-10 h-10 text-white" />
           </div>
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">Syllabus Tracker</h1>
+          <h1 className="text-3xl font-bold text-gray-800 mb-2">Tracklet</h1>
           <p className="text-gray-600">Track your academic progress</p>
         </div>
 
