@@ -212,6 +212,7 @@ const FacultyDashboard: React.FC<FacultyDashboardProps> = ({
             <TopicProgressChart topics={filteredTopics} />
           </div>
         </div>
+        <CollaborativeChecklist />
       </main>
     </div>
   );
