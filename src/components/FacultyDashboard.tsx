@@ -4,6 +4,8 @@ import { User, Topic, Notification } from '../types';
 import TimelineComponent from './TimelineComponent';
 import AddTopicModal from './AddTopicModal';
 import TopicProgressChart from './TopicProgressChart';
+import CollaborativeChecklist from './CollaborativeChecklist';
+
 
 interface FacultyDashboardProps {
   user: User | null;
