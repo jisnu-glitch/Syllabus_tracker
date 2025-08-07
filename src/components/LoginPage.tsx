@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, BookOpen, GraduationCap } from 'lucide-react';
+import { User, BookOpen, GraduationCap , School  } from 'lucide-react';
 import WalkingAnimation from './WalkingAnimation';
 
 interface LoginPageProps {
@@ -39,7 +39,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin }) => {
 
   if (isLoggingIn) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center ">
         <WalkingAnimation type={loginType!} />
       </div>
     );
@@ -50,7 +50,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin }) => {
       <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md p-8">
         <div className="text-center mb-8">
           <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
-            <BookOpen className="w-10 h-10 text-white" />
+            <School className="w-10 h-10 text-white" />
           </div>
           <h1 className="text-3xl font-bold text-gray-800 mb-2">Syllabus Tracker</h1>
           <p className="text-gray-600">Track your academic progress</p>
